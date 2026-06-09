@@ -1,0 +1,32 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Esthi Logo</title>
+  <desc id="desc">Esthi wordmark with a rounded app icon and a simple leaf mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="40" x2="220" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="94" y1="67" x2="166" y2="143" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <filter id="shadow" x="18" y="22" width="224" height="224" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="40" width="180" height="180" rx="46" fill="url(#bg)"/>
+  </g>
+
+  <!-- Stylized E -->
+  <path d="M92 79H169C175.075 79 180 83.9249 180 90V91C180 97.0751 175.075 102 169 102H117V120H158C164.075 120 169 124.925 169 131V132C169 138.075 164.075 143 158 143H117V161H170C176.075 161 181 165.925 181 172V173C181 179.075 176.075 184 170 184H92C85.9249 184 81 179.075 81 173V90C81 83.9249 85.9249 79 92 79Z" fill="white"/>
+
+  <!-- Leaf/accent mark -->
+  <path d="M153.5 66.5C181.5 69.2 197.5 90.5 190.2 113.5C184.7 130.9 165.4 140.4 147.8 135.1C146.2 111.6 151.5 88.3 153.5 66.5Z" fill="url(#leaf)"/>
+  <path d="M151 133C162 110 175 92.5 190 79" stroke="#1e3a5f" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Wordmark -->
+  <text x="270" y="150" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="96" font-weight="800" letter-spacing="-3" fill="#1e3a5f">Esthi</text>
+  <text x="275" y="194" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="600" letter-spacing="1.5" fill="#64748b">ESTHETICS STUDY APP</text>
+</svg>

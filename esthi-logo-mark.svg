@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Esthi App Icon</title>
+  <desc id="desc">Rounded Esthi app icon with a simple E and leaf mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="80" x2="432" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="250" y1="110" x2="372" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <path d="M163 158H325C340.464 158 353 170.536 353 186C353 201.464 340.464 214 325 214H214V246H300C315.464 246 328 258.536 328 274C328 289.464 315.464 302 300 302H214V334H329C344.464 334 357 346.536 357 362C357 377.464 344.464 390 329 390H163C147.536 390 135 377.464 135 362V186C135 170.536 147.536 158 163 158Z" fill="white"/>
+  <path d="M318 102C377.5 107 411.5 153.5 396 202.5C384.2 239.7 343.1 260 305.6 248.5C302.1 198 313.6 148.5 318 102Z" fill="url(#leaf)"/>
+  <path d="M310 246C334 197 360.5 158.5 392 129" stroke="#1e3a5f" stroke-width="18" stroke-linecap="round" opacity="0.72"/>
+</svg>
