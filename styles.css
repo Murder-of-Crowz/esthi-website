@@ -175,3 +175,9 @@ li {
   width: auto;
   display: block;
 }
+
+@media (max-width: 560px) {
+  .brand-logo img {
+    height: 36px;
+  }
+}
